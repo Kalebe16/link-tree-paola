@@ -1,0 +1,32 @@
+.bg-image {
+  background-image: url('./assets/images/background-sky.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-pink {
+  color: #ff69b4;
+}
+.btn-outline-pink {
+  border-color: #ff69b4;
+  border-width: 2px;
+}
+.btn-outline-pink:hover {
+  color: #fff;
+  background-color: #ff69b4;
+}
+.btn-outline-pink:active {
+  color: #fff;
+  background-color: #ff69b4;
+}
+
+
+/* For screens with a width less than 1208px */
+@media (max-width: 1208px) {
+  .bg-image {
+    background-position: 25% 44%;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
